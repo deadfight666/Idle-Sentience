@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>Idle Sentience</title>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <main>
+            <h1>Idle Sentience</h1>
+            <p>Begin the path to consciousness.</p> 
+
+            <div id="impulseCount" class="valueCount" aria-live="polite">Impulses: 0</div>
+            <div id="reactionCount" class="valueCount" aria-live="polite">Reactions: 0</div>
+
+            <div class="progress-wrapper">
+                <div class="progress-container">
+                    <div class="progress-bar" id="impulseProgress"></div>
+                    <div class="progress-bar-label" id="impulseBarLabel">Impulse progress</div>
+                </div>
+                
+                <div class="progress-container">
+                    <div class="progress-bar" id="reactionProgress"></div>
+                    <div class= "progress-bar-label" id="reactionBarLabel">Reaction progress</div>
+                </div>
+            </div>
+
+            
+            <button onclick="generateImpulse()">Generate impulse</button>
+            <button onclick="generateReaction()">Generate reaction</button>
+        </main>
+        
+        <script src="../js/impulses.js"></script>
+        <script src="../js/reactions.js"></script>
+        <script src="../js/patterns.js"></script>
+        <script src="../js/links.js"></script>
+        <script src="../js/foci.js"></script>
+        <script src="../js/thoughts.js"></script>
+        <script src="../js/main.js"></script>
+    </body>
+</html>
