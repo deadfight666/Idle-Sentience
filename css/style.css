@@ -67,8 +67,7 @@ button:hover {
     height: 100%;
     width: 0%;
     transition: width 0.3s ease;
-    z-index: -1;
-    background-color: limegreen;
+    z-index: 0;
 }
 
 .progress-bar-label {
